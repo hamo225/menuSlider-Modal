@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MenuSLider/Modal</title>
+    <script
+      src="https://kit.fontawesome.com/146885b278.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="https://randomuser.me/api/portraits/men/44.jpg" alt="" />
+      </div>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Projects</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Shop</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <button id="toggle" class="toggle">
+        <div class="fa fa-bars fa-2x"></div>
+      </button>
+      <h1>Random Landing Page</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+        perspiciatis alias deserunt architecto quo numquam doloribus quam amet
+        velit, iusto sint cupiditate assumenda et, pariatur reprehenderit
+        laudantium quis repudiandae. Assumenda?
+      </p>
+
+      <button class="cta-btn" id="open">Sign Up</button>
+    </header>
+    <div class="container">
+      <h2>About</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eos
+        ipsa quae illum, tenetur tempore. Culpa perferendis odio quidem quas!
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+        accusantium odit unde voluptas molestias labore earum aliquid accusamus!
+        Nesciunt assumenda error libero impedit accusamus, dolore nobis in
+        dolorem possimus, ratione a dolores fugit eveniet numquam consequuntur
+        ad animi? Blanditiis, quaerat?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rem,
+        quae aperiam eveniet est delectus numquam ipsam accusamus neque
+        architecto? Doloribus nihil aliquid incidunt delectus quibusdam magnam
+        officia vel nam.
+      </p>
+
+      <h2>Learn More</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel omnis in
+        est quia maiores! Blanditiis nam obcaecati nemo totam iure similique
+        pariatur dolor tempora id? Similique officiis fuga quasi deleniti quia
+        porro ea soluta quidem amet a eos expedita esse id autem aperiam
+        inventore magni rerum, nulla assumenda quam minus.
+      </p>
+
+      <h2>Services</h2>
+      <ul>
+        <li>Financial</li>
+        <li>Nutritional</li>
+        <li>Business</li>
+      </ul>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+        repellendus ratione corporis voluptas molestias similique expedita ea
+        enim deserunt ad beatae cum, corrupti minima maiores a cupiditate nulla
+        facere sed sit suscipit, voluptatibus modi tenetur! In magnam voluptatum
+        quae illum facere laudantium at minus nemo expedita alias impedit sunt,
+        quam, reprehenderit exercitationem officiis sit eius ratione illo eaque
+        non culpa iusto voluptas! Provident odio id ex atque quas saepe harum
+        impedit tempora laborum ducimus, ratione deleniti sapiente laudantium
+        ipsa corporis!
+      </p>
+    </div>
+
+    <div class="modal-overlay" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <div class="fa fa-times"></div>
+        </button>
+
+        <div class="modal-header">
+          <h3>Sign Up</h3>
+        </div>
+        <div class="modal-content">
+          <p>Register Now and keep informed</p>
+          <form action="" class="modal-form">
+            <div>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                name=""
+                id="name"
+                placeholder="Enter Name"
+                required
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name=""
+                id="email"
+                placeholder="Enter Email"
+                required
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="number">Number</label>
+              <input
+                type="number"
+                name=""
+                id="number"
+                placeholder="Enter Number"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input
+                type="password"
+                name=""
+                id="password"
+                placeholder="Enter Password"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="cpassword">Confirm Password</label>
+              <input
+                type="password"
+                name=""
+                id="cpassword"
+                placeholder="Please Confirm Password"
+                class="form-input"
+              />
+            </div>
+            <input type="submit" value="Submit" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
